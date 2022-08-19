@@ -3,9 +3,20 @@
 }
 
 .logo-link {
-    margin-right: 94px;
+    
     font-family: Raleway, sans-serif;
-    @include font(26px, 700, 31px);
+    @include font(24px, 700, 28px);
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+
+    @media screen and (min-width: 768px) {
+        margin-right: 87px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-right: 94px;
+        @include font(26px, 700, 31px);
+    }
+
+    
 }

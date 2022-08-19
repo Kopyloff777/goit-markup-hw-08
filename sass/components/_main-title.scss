@@ -1,8 +1,15 @@
 .main-title {
     color: var(--primary-white-color);
-    @include font(44px, 900, 60px);
+    @include font(26px, 900, 42px);
     
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+}
+
+@media screen and (min-width:1200px) {
+.main-title {
+    @include font(44px, 900, 60px);
+}
+    
 }

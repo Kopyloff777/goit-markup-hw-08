@@ -11,11 +11,9 @@
       "savePath": "/css"
     }
   ],
-  "liveSassCompile.settings.excludeList": [
-    "**/node_modules/**",
-    ".vscode/**"
-  ],
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
   "liveSassCompile.settings.generateMap": true,
-  "liveServer.settings.port": 1235,
-  "liveSassCompile.settings.autoprefix": null
+  "liveServer.settings.port": 1245,
+  "liveSassCompile.settings.autoprefix": null,
+  "cSpell.words": ["onlay"]
 }

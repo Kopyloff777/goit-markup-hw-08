@@ -1,7 +1,29 @@
 .container {
-    width: 1200px;
+    //Mobile
+
+    // outline: 1px solid red;
+    // outline-offset: -1px;
+
+
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+
+    //Breakpoint 480px for mobile screen
+    @media screen and (min-width: 480px) {
+        width: 480px;
+     }
+
+    //Breakpoint 768px for tablet screen
+    @media screen and (min-width: 768px ) {
+        width: 768px;
+    }
+
+    //Breakpoint 1200px for desktop screen
+    @media screen and (min-width: 1200px ) {
+        width: 1200px;
+        }
+        
+    
 }
