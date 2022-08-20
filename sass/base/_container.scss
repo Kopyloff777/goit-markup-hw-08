@@ -9,20 +9,21 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 320px;
 
     //Breakpoint 480px for mobile screen
     @media screen and (min-width: 480px) {
-        width: 480px;
+        max-width: 480px;
      }
 
     //Breakpoint 768px for tablet screen
     @media screen and (min-width: 768px ) {
-        width: 768px;
+        max-width: 768px;
     }
 
     //Breakpoint 1200px for desktop screen
     @media screen and (min-width: 1200px ) {
-        width: 1200px;
+        max-width: 1200px;
         }
         
     
