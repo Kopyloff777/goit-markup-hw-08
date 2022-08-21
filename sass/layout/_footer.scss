@@ -1,19 +1,15 @@
 .footer {
-
   padding-top: 60px;
   padding-bottom: 60px;
   background: var(--dark-bg-color);
 
   & .logo-link {
     color: var(--primary-white-color);
-
   }
 }
 
 .footer-links {
-  // margin-right: 70px;
   margin-bottom: 60px;
-
 }
 
 .footer-link {
@@ -22,7 +18,6 @@
 
 .footer-logo {
   margin: 0;
-
 }
 
 .footer-list-link {
@@ -60,7 +55,6 @@
   margin-bottom: 20px;
   @include font(14px, 700, 16px);
 
-
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -69,8 +63,6 @@
 
 @media screen and(min-width:768px) {
   .footer-container {
-    // display: flex;
-    //   align-items: baseline;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -80,15 +72,12 @@
       margin-bottom: 0;
     }
   }
-
 }
 
 @media screen and (min-width: 1200px) {
   .footer-container {
-    // width: 1200px;
     display: flex;
     align-items: baseline;
-
   }
 
   .footer-form {
@@ -103,27 +92,14 @@
   .footer-links {
     margin-right: 70px;
   }
-
-    
-
-  
 }
 
 .footer-container {
-  // display: flex;
-  // align-items: baseline;
   text-align: center;
 }
 
 .footer-form {
-
   margin-top: 60px;
-
-  // display: block;
-  // align-items: baseline;
-  // padding: 0;
-  // margin-right: 0;
-  // margin-left: auto;
 }
 
 .footer-form-title {
@@ -156,20 +132,19 @@
   }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
   .mail-form-input {
-      width: 358px;
-      margin-bottom: 0;
-      
-    }
+    width: 358px;
+    margin-bottom: 0;
+  }
 
-        .footer-form {
-          margin-top: 0;
-        }
+  .footer-form {
+    margin-top: 0;
+  }
 
-         .footer-container {
-          text-align: left;
-         }
+  .footer-container {
+    text-align: left;
+  }
 }
 
 .mail-form-submit-btn {
@@ -195,5 +170,4 @@
 .icon-mail-form-submit-btn {
   fill: var(--primary-white-color);
   margin-left: 10px;
-
 }

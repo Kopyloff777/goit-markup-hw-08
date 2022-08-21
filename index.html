@@ -204,36 +204,57 @@
           <ul class="activity-photo-list list">
             <li class="activity-photo-list-item">
               <div class="image-onlay">
-                <img
-                  src="./images/about-img-1.jpg"
-                  alt="программист работает над кодом"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      images\activity\activity-1@1x_large.jpg 1x,
+                      images\activity\activity-1@2x_large.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img src="./images/about-img-1.jpg" alt="Программист работает над кодом" />
+                </picture>
+
                 <p class="onlay">Десктопные приложения</p>
               </div>
             </li>
 
             <li class="activity-photo-list-item">
               <div class="image-onlay">
-                <img
-                  src="./images/about-image-2.jpg"
-                  alt="дизайнер работает над мобильным приложением"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      images\activity\activity-2@1x_large.jpg 1x,
+                      images\activity\activity-2@2x_large.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    src="./images/about-img-2.jpg"
+                    alt="Дизайнер работает над мобильным приложением"
+                  />
+                </picture>
+
                 <p class="onlay">Мобильные приложения</p>
               </div>
             </li>
 
             <li class="activity-photo-list-item">
               <div class="image-onlay">
-                <img
-                  src="./images/about-img-3.jpg"
-                  alt="дизайнер работает с графическим планшетом"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      images\activity\activity-3@1x_large.jpg 1x,
+                      images\activity\activity-3@2x_large.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    src="./images/about-img-3.jpg"
+                    alt="Дизайнер работает с графическим планшетом"
+                  />
+                </picture>
+
                 <p class="onlay">Дизайнерские решения</p>
               </div>
             </li>
@@ -252,13 +273,32 @@
             <li class="team-list-item">
               <article class="card">
                 <div class="card-thumb">
-                  <img
-                    class="team-image"
-                    src="./images/team-1.jpg"
-                    alt="Член команды"
-                    width="270"
-                    height="260"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        images\team\team-1@1x_large.jpg 1x,
+                        images\team\team-1@2x_large.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+
+                    <source
+                      srcset="
+                        images\team\team-1@1x_medium.jpg 1x,
+                        images\team\team-1@2x_medium.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        images\team\team-1@1x_small.jpg 1x,
+                        images\team\team-1@2x_small.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img class="team-image" src="./images/team-1.jpg" alt="Член команды" />
+                  </picture>
                 </div>
 
                 <div class="team-content">
@@ -306,13 +346,32 @@
             <li class="team-list-item">
               <article class="card">
                 <div class="card-thumb">
-                  <img
-                    class="team-image"
-                    src="./images/team-2.jpg"
-                    alt="Член команды"
-                    width="270"
-                    height="260"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        images\team\team-2@1x_large.jpg 1x,
+                        images\team\team-2@2x_large.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+
+                    <source
+                      srcset="
+                        images\team\team-2@1x_medium.jpg 1x,
+                        images\team\team-2@2x_medium.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        images\team\team-2@1x_small.jpg 1x,
+                        images\team\team-2@2x_small.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img class="team-image" src="./images/team-2.jpg" alt="Член команды" />
+                  </picture>
                 </div>
 
                 <div class="team-content">
@@ -360,13 +419,32 @@
             <li class="team-list-item">
               <article class="card">
                 <div class="card-thumb">
-                  <img
-                    class="team-image"
-                    src="./images/team-3.jpg"
-                    alt="Член команды"
-                    width="270"
-                    height="260"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        images\team\team-3@1x_large.jpg 1x,
+                        images\team\team-3@2x_large.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+
+                    <source
+                      srcset="
+                        images\team\team-3@1x_medium.jpg 1x,
+                        images\team\team-3@2x_medium.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        images\team\team-3@1x_small.jpg 1x,
+                        images\team\team-3@2x_small.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img class="team-image" src="./images/team-3.jpg" alt="Член команды" />
+                  </picture>
                 </div>
 
                 <div class="team-content">
@@ -414,13 +492,32 @@
             <li class="team-list-item">
               <article class="card">
                 <div class="card-thumb">
-                  <img
-                    class="team-image"
-                    src="./images/team-4.jpg"
-                    alt="Член команды"
-                    width="270"
-                    height="260"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        images\team\team-4@1x_large.jpg 1x,
+                        images\team\team-4@2x_large.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+
+                    <source
+                      srcset="
+                        images\team\team-4@1x_medium.jpg 1x,
+                        images\team\team-4@2x_medium.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        images\team\team-4@1x_small.jpg 1x,
+                        images\team\team-4@2x_small.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img class="team-image" src="./images/team-4.jpg" alt="Член команды" />
+                  </picture>
                 </div>
 
                 <div class="team-content">

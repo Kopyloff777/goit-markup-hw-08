@@ -1,22 +1,19 @@
 .logo-link__web {
-    color: var(--accent-text-color);
+  color: var(--accent-text-color);
 }
 
 .logo-link {
-    
-    font-family: Raleway, sans-serif;
-    @include font(24px, 700, 28px);
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+  font-family: Raleway, sans-serif;
+  @include font(24px, 700, 28px);
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 
-    @media screen and (min-width: 768px) {
-        margin-right: 87px;
-    }
+  @media screen and (min-width: 768px) {
+    margin-right: 87px;
+  }
 
-    @media screen and (min-width: 1200px) {
-        margin-right: 94px;
-        @include font(26px, 700, 31px);
-    }
-
-    
+  @media screen and (min-width: 1200px) {
+    margin-right: 94px;
+    @include font(26px, 700, 31px);
+  }
 }
