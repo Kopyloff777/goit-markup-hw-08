@@ -156,7 +156,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-width: 450px;
+  min-width: 100vw;
   height: 100%;
   padding: 48px 40px;
   margin-left: auto;
@@ -484,14 +484,24 @@ img {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .activity-title {
+    text-align: center;
+  }
+  .activity-list-item {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .activity-title {
+    text-align: left;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .activity-list {
     display: flex;
     flex-wrap: wrap;
     gap: var(--card-set-gap);
-  }
-  .activity-list .activity-title {
-    text-align: left;
   }
   .activity-list-item {
     flex-basis: calc((100% - 4 * var(--card-set-gap)) / 2);
@@ -506,7 +516,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
-  text-align: center;
 }
 
 .activity-text {
@@ -527,9 +536,6 @@ img {
   .activity-list {
     display: flex;
   }
-  .activity-list-item {
-    flex-basis: calc(100% - 120px)/4;
-  }
   .activity-list-item:not(:last-child) {
     margin-right: 30px;
   }
@@ -548,9 +554,6 @@ img {
   .activity-photo-list {
     display: flex;
     justify-content: space-between;
-  }
-  .activity-photo-list-item {
-    flex-basis: calc(100% - 90px)/3;
   }
   .image-onlay {
     position: relative;
@@ -722,7 +725,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: auto;
   width: 210px;
   height: 93px;
   border: 1px solid #afb1b8;
@@ -952,6 +954,14 @@ img {
   overflow: auto;
 }
 
+@media screen and (max-width: 479px) {
+  .modal {
+    width: 95%;
+  }
+  .modal .contact-form-checkbox-label {
+    display: inline-block;
+  }
+}
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;

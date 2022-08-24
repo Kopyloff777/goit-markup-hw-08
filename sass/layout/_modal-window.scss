@@ -30,6 +30,15 @@
   overflow: auto;
 }
 
+@media screen and (max-width:479px) {
+  .modal {
+    width: 95%;
+    .contact-form-checkbox-label {
+      display: inline-block;
+    }
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
